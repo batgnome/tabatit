@@ -2,3 +2,7 @@
     height: 1px;
     background: black;
 }
+
+body {
+    height: 500px;
+}

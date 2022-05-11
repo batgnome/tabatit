@@ -6,32 +6,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./node_modules/paper/dist/paper-full.js"></script>
+    <script src="./application.js"></script>
     <title>Document</title>
 </head>
 
-<script>
-    function draw() {
-        var canvas = document.getElementById('guitar');
+<body>
 
-        var ctx = canvas.getContext('2d');
-        ctx.moveTo(0, 0);
-        ctx.lineTo(300, 150);
-        ctx.stroke();
-
-    }
-</script>
-
-
-<body onload="draw()">
-    <div class="line"></div> <br>
-    <div class="line"></div> <br>
-    <div class="line"></div> <br>
-    <div class="line"></div> <br>
-    <div class="line"></div> <br>
-    <div class="line"></div> <br>
-
-    <canvas id="guitar"></canvas>
-
+    <canvas id="myCanvas"></canvas>
 </body>
 
 </html>
